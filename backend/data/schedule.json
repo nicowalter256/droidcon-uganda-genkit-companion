@@ -1,0 +1,351 @@
+[
+  {
+    "id": "d1-keynote",
+    "title": "KeyNote",
+    "speaker": "Chris Assigbe",
+    "day": 1,
+    "startTime": "10:05",
+    "endTime": "10:50",
+    "room": "Auditorium",
+    "tags": [
+      "keynote"
+    ],
+    "abstract": null
+  },
+  {
+    "id": "d1-build-first-full-stack",
+    "title": "Build Your First Full-Stack Flutter App with Genkit Dart",
+    "speaker": "Gidudu Muyobo Nicholas",
+    "day": 1,
+    "startTime": "10:55",
+    "endTime": "11:35",
+    "room": "Visual Spaces",
+    "tags": [
+      "flutter",
+      "dart",
+      "ai",
+      "genkit",
+      "testing",
+      "full-stack"
+    ],
+    "abstract": "AI development often means using different tools and languages just to connect to an AI model. Genkit Dart makes this simpler by letting you build both your Flutter app and AI backend using Dart. In this hands-on workshop, we’ll build a simple AI app from scratch using a Genkit Dart backend and Flutter frontend. We’ll see why a backend is important, how Genkit keeps AI logic secure and easy to test, and what a production setup looks like. You’ll leave with a working full-stack AI app and a better understanding of when to use Genkit Dart."
+  },
+  {
+    "id": "d1-build-smarter-android-apps",
+    "title": "Build Smarter Android Apps: A Hands-On Codelab for Cloud and On-Device AI",
+    "speaker": "Valentine Rutto",
+    "day": 1,
+    "startTime": "11:00",
+    "endTime": "11:40",
+    "room": "Auditorium",
+    "tags": [
+      "android",
+      "ai",
+      "on-device",
+      "offline",
+      "architecture",
+      "performance"
+    ],
+    "abstract": "AI features are now expected in modern mobile apps, but building them well requires more than simply calling an API. In this hands-on codelab, attendees will build an AI-powered chat experience on Android while learning how to integrate cloud models, run on-device inference, and connect everything into a real app architecture. By the end, participants will have a working feature and a clear understanding of how to apply these techniques in their own apps. What attendees will learn: - Integrate cloud-based AI APIs alongside on-device models within a single Android application - Design effective prompts and manage multi-turn conversation context -Implement streaming responses for real-time interactions and handle structured outputs - Run local models using Android-compatible runtimes, including model download and update strategies - Build a hybrid architecture that intelligently switches between cloud and on-device inference - Optimize for real-world constraints such as latency, memory, compute, cost, and network availability -Design resilient user experiences with proper handling of loading states, errors, retries, and cancellations - Enable offline functionality and privacy-preserving inference By the end of the codelab, attendees will have a fully functional AI chat feature and a clear, reusable architecture for building scalable, reliable, and modern AI-powered Android applications."
+  },
+  {
+    "id": "d1-building-ourselves-why-open",
+    "title": "Building for Ourselves: Why Open Source and Local-First Mobile Apps Matter for African Developers",
+    "speaker": "Kevin Ziyada Aseru, Julian Zaabu Kayikayi",
+    "day": 1,
+    "startTime": "11:40",
+    "endTime": "12:15",
+    "room": "Auditorium",
+    "tags": [
+      "offline",
+      "architecture",
+      "open-source"
+    ],
+    "abstract": "When we build mobile apps that rely entirely on closed, expensive cloud services and proprietary APIs, we don't fully own our projects. If a company raises its prices, changes its terms, or restricts regional access, our apps can become too expensive to run or break entirely. For developers in Africa, this risk is magnified by high data costs, fluctuating exchange rates, and unstable connectivity. This talk is about taking back control through Architectural Sovereignty, the freedom to own your tech stack. We will look at why open-source tools and \"local-first\" architectures are critical for building sustainable, affordable apps that fit our regional realities. Moving past theory, we will look at practical ways to structure your mobile applications. We will discuss how to build apps that work seamlessly offline, how to decouple your code from expensive cloud dependencies, and how to structure a public codebase so a community of developers can collaborate on it together without it turning into a messy, broken project. What attendees will learn: 1. Local-First Design: How to structure mobile apps to store and process data on the user’s device first, ensuring they work reliably without constant, expensive internet connectivity. 2. Breaking Vendor Lock-In: Practical architectural patterns to decouple your core app logic from proprietary cloud platforms, keeping your operating costs low and predictable. 3. Collaborative Codebases: Best practices for setting up open repositories, strict formatting, and clear contribution pipelines so that teams and regional developer communities can build production-grade software together."
+  },
+  {
+    "id": "d1-remote-theme-engine-flutter",
+    "title": "Remote Theme Engine for Flutter",
+    "speaker": "Badreddine Kouki",
+    "day": 1,
+    "startTime": "11:40",
+    "endTime": "12:15",
+    "room": "Visual Spaces",
+    "tags": [
+      "flutter",
+      "offline",
+      "architecture"
+    ],
+    "abstract": "Every Flutter developer knows this moment: design changes a primary color, and suddenly you're wasting 3-day waiting for the color to get to your users. In this workshop, we'll see in action the flutter_skin a runtime skin engine that lets you publish color scheme changes from a dashboard and watch them appear on real devices in 2 seconds, without a rebuild, without a release, and without violating a single App Store policy. - We'll start with the problem: Flutter's theming system is beautiful, type-safe, and completely frozen the moment your app ships. By the end of this workshop, attendees will have built a working remote skin engine and understand the architecture patterns behind it. We'll cover also: offline fallback, cache invalidation, API key security, and how to keep your Flutter app resilient even when the skin service is unreachable. flutter_skin is live in production today at fskin.dev, with a published package on pub.dev."
+  },
+  {
+    "id": "d1-from-android-forms-first",
+    "title": "From Android Forms to First-Person Capture: Building Hands-Free Workflows with Meta Glasses",
+    "speaker": "Kartik Setia",
+    "day": 1,
+    "startTime": "12:20",
+    "endTime": "13:05",
+    "room": "Auditorium",
+    "tags": [
+      "android",
+      "offline",
+      "architecture",
+      "hardware"
+    ],
+    "abstract": "Building a hands-free Android workflow is much harder than connecting a wearable camera. In this session, I’ll share how we extended an offline Android form application to work with Meta glasses for first-person video and photo evidence capture. Users can hear the current form question, use glasses touch gestures to capture media, and return the captured result to the correct offline form field without manually operating the phone. I’ll cover the Android architecture behind the implementation: Meta wearable camera sessions, device discovery, low-latency preview, gesture handling, media validation, offline persistence, and session handoff between the form and capture experiences. The interesting part is reliability on real hardware. I’ll explain the differences we encountered between Gen1 and Gen2 glasses, including stream pause/resume behavior after touch gestures, session teardown, reconnect handling, and how external wearable media was routed through an existing Android media pipeline instead of duplicating storage and validation logic. Attendees will leave with practical patterns for integrating wearable cameras into Android apps: treating hardware state as a recoverable state machine, keeping capture-source code separate from persistence logic, and designing demos and production flows that handle disconnects gracefully. 1. Build a recoverable wearable-camera state machine for connection, streaming, capture, and reconnect states. 2. Reuse existing Android media validation and offline persistence pipelines for external camera sources. 3. Handle real wearable differences—especially Gen2 stream pause/resume behavior—without breaking capture flows."
+  },
+  {
+    "id": "d1-optimizing-flutter-app-web",
+    "title": "Optimizing Your Flutter App for the Web",
+    "speaker": "Siro Devs",
+    "day": 1,
+    "startTime": "12:20",
+    "endTime": "13:05",
+    "room": "Visual Spaces",
+    "tags": [
+      "flutter",
+      "web",
+      "performance"
+    ],
+    "abstract": "In this session, we’ll explore key strategies and best practices to optimize Flutter apps for the web, ensuring smooth performance, responsiveness, and an enhanced user experience. We’ll cover essential topics such as asset management, responsive design techniques, minimizing bundle sizes, leveraging web-specific plugins, and optimizing rendering for different screen sizes and devices. Additionally, we’ll discuss common challenges developers face when transitioning from mobile to web and provide practical solutions to overcome them. Whether you're looking to improve load times, enhance SEO capabilities, or achieve a seamless cross-platform experience, this talk will equip you with actionable insights to take your Flutter web apps to the next level."
+  },
+  {
+    "id": "d1-building-lightning-fast-search",
+    "title": "Building Lightning-Fast Search with Typesense",
+    "speaker": "Steph Farid",
+    "day": 1,
+    "startTime": "14:15",
+    "endTime": "15:15",
+    "room": "Visual Spaces",
+    "tags": [
+      "open-source",
+      "search",
+      "performance"
+    ],
+    "abstract": "A hands-on workshop where developers build a fully functional search feature from scratch using Typesense — covering indexing, querying, filtering, and real-time results. No prior search engine experience required. Search is one of the most used features in any application — yet it’s one of the hardest to get right. Slow results, zero typo tolerance, and irrelevant matches drive users away. In this hands-on workshop, you will build a fully functional, production-ready search feature from scratch using Typesense — an open-source, typo-tolerant search engine built for speed. By the end of this session, you will have gone from zero to a working search implementation, understanding every step along the way. What we’ll cover: What Typesense is and how it compares to other search solutions Setting up a Typesense instance and defining your schema Indexing your data and understanding collections Writing powerful search queries with filtering, sorting, and faceting Handling typos and fuzzy matching out of the box Displaying real-time search results in your application"
+  },
+  {
+    "id": "d1-go-beyond-prompt-using",
+    "title": "Go Beyond the Prompt: Using Context to Build Reliable AI-Assisted Android Workflows",
+    "speaker": "Rafa Moreno",
+    "day": 1,
+    "startTime": "14:20",
+    "endTime": "15:20",
+    "room": "Auditorium",
+    "tags": [
+      "android",
+      "ai",
+      "web"
+    ],
+    "abstract": "Today's AI tooling was trained and evolved in a world built for web or server side development, not for mobile clients. As a result, Android developers often over-include information, reuse degraded context, or mix multiple tasks into a single conversation leading to LLMs generating code that doesn't work or fit your use case. In this talk we show why Context matters more than prompting, how to scope Context, avoid Context Rot, reset and reuse context intentionally, and externalize stable knowledge instead of embedding it in prompts. You'll walk away with a concrete mental model and actionable frameworks for building AI workflows to help build your Android applications"
+  },
+  {
+    "id": "d1-leading-trust-ethics-leadership",
+    "title": "Leading with Trust: Ethics and Leadership in the Age of AI",
+    "speaker": "Omu Obilor",
+    "day": 1,
+    "startTime": "15:20",
+    "endTime": "16:20",
+    "room": "Auditorium",
+    "tags": [
+      "ai",
+      "leadership"
+    ],
+    "abstract": "Artificial Intelligence is transforming the way we build products, solve problems, and make decisions. Yet the success of AI isn't determined by technology alone—it depends on leaders who can build trust, navigate ethical complexity, and inspire people through change. As AI becomes embedded in our workplaces and products, technical leaders face critical questions: How do we innovate responsibly? How do we build trust in AI-powered solutions? And how do we ensure that human judgment, accountability, and empathy remain at the heart of technological progress? In this session, leadership consultant and executive coach Omu Obilor shares a practical framework for leading AI-driven transformation with confidence, integrity, and influence. Through real-world examples and actionable strategies, participants will learn how to strengthen trust, lead ethical decision-making, foster collaboration across technical and non-technical teams, and create cultures where innovation and responsibility thrive together. Attendees will leave with: A practical framework for leading AI transformation with trust. Strategies for navigating ethical leadership challenges in technology. Tools for building collaboration, accountability, and innovation across teams. Three actionable steps to lead confidently in an AI-driven world. Because while AI may transform technology, trusted leadership will determine its impact."
+  },
+  {
+    "id": "d1-running-android-raspberry-pi",
+    "title": "Running Android on your Raspberry Pi",
+    "speaker": "Paul Mayero, Faith Uniter Nyakerario",
+    "day": 1,
+    "startTime": "15:20",
+    "endTime": "16:20",
+    "room": "Visual Spaces",
+    "tags": [
+      "android",
+      "open-source",
+      "hardware"
+    ],
+    "abstract": "What happens when you take Android out of the phone and put it on a Raspberry Pi? Android is built on the Android Open Source Project (AOSP), which means that much of the platform we use every day is available for developers to explore, modify, build, and run themselves. In this talk, we'll take that idea literally and look at what it takes to get an AOSP-based Android image running on a Raspberry Pi. We'll walk through the journey from the AOSP source code to a bootable Android system, looking at how the different pieces of Android fit together and what changes are needed to make Android work on Raspberry Pi hardware. The Android image used in the talk is built from AOSP, giving us an opportunity to explore Android as an open-source platform rather than treating it as a black box. We'll look at the Android build system, hardware abstraction layers, the Linux kernel, and how AOSP interacts with the underlying hardware. Along the way, we'll also discuss some of the challenges you encounter when moving Android beyond the hardware it was originally designed for—and what this tells us about the relationship between open-source software and hardware. This is a hands-on look at AOSP for curious developers who want to understand what's underneath Android, experiment with the platform, and see what happens when you bring an open-source Android stack to a Raspberry Pi."
+  },
+  {
+    "id": "d1-sanarei-offline-web-browsing",
+    "title": "Sanarei: Offline Web Browsing",
+    "speaker": "Bernard Banta",
+    "day": 1,
+    "startTime": "16:45",
+    "endTime": "17:40",
+    "room": "Visual Spaces",
+    "tags": [
+      "offline",
+      "web"
+    ],
+    "abstract": "Sanarei, a middleware that leverages USSD to enable offline-friendly web interactions. With Sanarei, users on basic feature phones can browse web pages, submit forms, and interact with digital services without an internet connection. It’s an approach that rethinks how the web can reach the billions of people who rely on basic mobile devices and limited connectivity."
+  },
+  {
+    "id": "d2-shipping-kmp-confidence-automated",
+    "title": "Shipping KMP with Confidence: Automated Testing and Modular CI/CD Frameworks",
+    "speaker": "Joshua Musyoki",
+    "day": 2,
+    "startTime": "10:00",
+    "endTime": "11:00",
+    "room": "Auditorium",
+    "tags": [
+      "kotlin",
+      "kmp",
+      "testing",
+      "ci-cd",
+      "architecture"
+    ],
+    "abstract": "Writing shared Kotlin code is only half the battle; scaling it across an engineering team and safely shipping it to production is where the real complexity begins. Testing Multi-Platform logic demands a shift from traditional JVM-only mock frameworks toward architecture designed for robust, platform-agnostic verification. This session focuses on the infrastructure side of Kotlin Multi-Platform. We will dissect how to design a highly modular multi-module Kotlin project, implement comprehensive repository-level integration tests that run deterministically across targets, and build optimized CI/CD automation pipelines that handle artifact compilation, distribution, and local version caching seamlessly. Key Takeaways: Setting up a scalable multi-module KMP architecture that keeps feature domains strictly decoupled. Writing unified integration tests using multiplatform test libraries to validate local databases and network calls. Designing an automated delivery pipeline (GitHub Actions/Bitrise) to build, test, and distribute binaries without bottlenecking team velocity."
+  },
+  {
+    "id": "d2-effective-app-architecture-state",
+    "title": "Effective App Architecture & State Management in Flutter",
+    "speaker": "Bashir Kasujja",
+    "day": 2,
+    "startTime": "10:00",
+    "endTime": "11:00",
+    "room": "Visual Spaces",
+    "tags": [
+      "flutter",
+      "testing",
+      "architecture"
+    ],
+    "abstract": "As Flutter applications grow, keeping code clean, scalable, and maintainable becomes increasingly challenging. In this session, we'll explore practical architectural patterns—including layered architecture, the Repository pattern, and effective state management—to help you build production-ready Flutter applications that are easier to test, extend, and maintain."
+  },
+  {
+    "id": "d2-one-language-full-stack",
+    "title": "One Language, Full Stack: Agentive Flutter UI with genui_catalog + Serverpod",
+    "speaker": "Omar Farouk",
+    "day": 2,
+    "startTime": "11:00",
+    "endTime": "12:00",
+    "room": "Visual Spaces",
+    "tags": [
+      "flutter",
+      "dart",
+      "ai",
+      "architecture",
+      "open-source",
+      "full-stack"
+    ],
+    "abstract": "Most Flutter developers still reach for Node.js or Python when they need a backend. But in 2026, the full-stack Dart story is production-ready and it unlocks something powerful: a single language, shared models, null-safety across the entire stack, and zero API contract friction between your server and your Flutter app. In this session, we'll build a complete agentive application in pure Dart: a Serverpod backend that orchestrates Gemini calls and returns structured widget instructions, consumed by a Flutter frontend that composes its own interface at runtime no hardcoded screens, no navigation stack, just user intent driving the UI. The demo is powered by genui_catalog, an open-source Flutter package I authored and published on pub.dev, shipping 17 production-ready GenUI components, KpiCard, ActionForm, StepperCard, TimelineCard, ChartCard and more. Each with their JSON schema, event bindings, dark/light mode support, and screen-reader semantics pre-wired. The Serverpod backend generates the widget instructions; genui_catalog handles the rendering instantly, with zero boilerplate. Every attendee can reproduce the full demo with a single flutter pub add genui_catalog. The use case is a healthcare triage assistant inspired by Lebenam, a real Flutter health platform built for clinics in West Africa — where the right interface at the right moment genuinely changes patient outcomes. We'll cover the full Serverpod architecture (YAML model definition, code generation, typed ORM, auto-generated Flutter client), wire it to the genui_catalog SurfaceController pipeline, and deploy the entire stack on a self-hosted VPS using Docker and Traefik no vendor lock-in, full control."
+  },
+  {
+    "id": "d2-bridging-gap-built-hybrid",
+    "title": "Bridging the Gap: How We Built Hybrid Mobile AI Before Google Made it Native",
+    "speaker": "Ahmed Nabil",
+    "day": 2,
+    "startTime": "12:00",
+    "endTime": "13:00",
+    "room": "Auditorium",
+    "tags": [
+      "kotlin",
+      "ai",
+      "on-device",
+      "offline",
+      "architecture",
+      "performance"
+    ],
+    "abstract": "In mobile AI, picking between cloud-based models and on-device execution used to feel like a forced compromise: The Cloud (Gemini Pro): Deep reasoning and multimodal magic, but dependent on network connectivity and latency. On-Device (Gemini Nano): Blazing fast, offline, and private, but bounded by device memory and model capacity. Why choose when you can have both? Before native framework support existed, forward-thinking developers had to engineer custom \"Smart Routers\"—combining Firebase AI Logic and ML Kit to inspect network state, hardware capabilities, and request complexity to dynamically switch routes on the fly. Fast forward to today: Google has adapted this hybrid pattern directly into the official Firebase AI SDK, giving developers out-of-the-box hybrid orchestration, policy-based routing, and dynamic fallback out of the box. In this practical, code-heavy session, we will explore the architectural evolution of mobile AI routing. We'll examine how we used to build custom orchestration layers, how the new native Firebase Hybrid SDK simplifies the codebase, and walk through a live demo comparing both approaches under real-world edge cases (airplane mode, weak network, and heavy multimodal payloads). 1. The Mobile AI Spectrum (5 Mins) Cloud vs. On-Device: Trade-offs in latency, privacy, bandwidth cost, and reasoning power. Why Hybrid is the Golden Standard: Moving beyond simple API calls to adaptive edge-cloud architecture. 2. The \"DIY Era\": Building Custom Smart Routers (10 Mins) Architecture Walkthrough: How we manually wired Firebase AI Logic (Cloud) and ML Kit GenAI (Local). Router Logic in Action: Inspecting isOnline, hardwareCapability, and prompt complexity in Kotlin. Lessons Learned: Edge cases, battery overhead, and state management headaches of custom routing. 3. The Native Shift: Firebase's Out-of-the-Box Hybrid Engine (10 Mins) What changed? Anatomy of the new native Firebase Hybrid SDK features. Configuration Policies: Deep dive into routing policies (PREFER_ON_DEVICE, PREFER_IN_CLOUD, fallback strategies). Code Migration: Moving from custom routing logic into a few clean SDK initialization parameters. 4. Live Demo & Benchmarks (10 Mins) Live App Showcase: Real-time demonstration of an adaptive AI app in three environments: High-speed 5G (Cloud execution). Subway / Airplane mode (Instant local failover via Gemini Nano). Multimodal photo reasoning (Dynamic route selection). Performance Telemetry: Side-by-side comparison of latency, memory footprints, and network payloads."
+  },
+  {
+    "id": "d2-device-ai-flutter-gemma",
+    "title": "On-Device AI with Flutter & Gemma: Building Offline-First AI Mobile Apps for Africa",
+    "speaker": "Georges Byona",
+    "day": 2,
+    "startTime": "12:00",
+    "endTime": "13:00",
+    "room": "Visual Spaces",
+    "tags": [
+      "flutter",
+      "android",
+      "ai",
+      "on-device",
+      "offline"
+    ],
+    "abstract": "Network outages, costly mobile data, and areas with weak signal are still everyday challenges across African markets. Yet, most mobile AI systems continue to depend on constant cloud connections and expensive APIs. This session challenges that norm. We show how to run Google’s Gemma models directly on user devices using Flutter and flutter_gemma, enabling fast, private, and fully offline AI experiences that respond in under a second. Drawing from real-world experience building Gemmea (1st place winner at GDG on Campus UCB Build with Gemma 2026), this interactive talk walks through the full Edge AI workflow for cross-platform mobile apps. We dive into model optimization techniques like INT4 and INT8 quantization, examine memory boundaries on mid-tier Android smartphones (3GB–6GB RAM), and explore how to integrate MediaPipe’s LLM Inference engine directly with Flutter apps. Beyond the technical setup, we share candid lessons from what didn’t work: device thermal throttling, Out-Of-Memory (OOM) crashes on budget Android phones, UI thread lockups, and the architectural choices, like offloading inference to Flutter Isolates, that made the system reliable. By the end, attendees walk away with proven strategies, reusable code snippets, and practical design patterns to build and deploy offline-first AI apps in 2026."
+  },
+  {
+    "id": "d2-migrating-webapp-kotlin-multiplatform",
+    "title": "Migrating a webapp to Kotlin Multiplatform... Mpola mpola",
+    "speaker": "Aditya Sadalage",
+    "day": 2,
+    "startTime": "14:05",
+    "endTime": "15:00",
+    "room": "Auditorium",
+    "tags": [
+      "android",
+      "kotlin",
+      "kmp",
+      "compose",
+      "offline",
+      "architecture",
+      "web"
+    ],
+    "abstract": "Moving your main client application to Kotlin Multiplatform isn't always plug-and-play. You are fundamentally rethinking your entire architecture and customer experience, while inventably carrying out much-needed housekeeping. Yes, one might say that today's frontier models could probably one-shot the whole migration. In theory, yes. But in practice there are usually a lot of DevX (developer experience) challenges, especially with the constraints of Uganda, which create bottlenecks to this seemingly easy change. In this session, I will walk through the real-world migration of an ERP tool built for African SMEs (with live customers) from a standard Progressive WebApp to a fully shared KMP architecture for android and iOS. We will dive into the code to see how to build a unified design system with Compose Multiplatform, handle cross-platform dependency injection with Koin, and implement robust offline-first data persistence using the new Room 2.8.4 for KMP. 2. Key Takeaways and Learning Points: 1 Why did we do this? The product feedback that pushed us to make this decision 2 Unified DI: How to configure and leverage Koin for Dependency Injection seamlessly across both Android and iOS targets. 3 Offline-First Persistence: Implementing Room 2.8.4 in a KMP environment to ensure reliable offline functionality—crucial for African SME environments. 4 Shared UI: The challenges and triumphs of building a unified design system using Compose Multiplatform and balancing releases for desktop clients 5 Migration Strategy: Practical steps to migrate a live, complex Angular codebase to KMP without halting product development. 3. Experience Level with the Topic Advanced / Real-world deployment: I am the Founder and Lead Engineer of a software company building this ERP system. This is not a hobby project or a simple side app; it is a complex, commercial-grade product designed to deploy at scale for businesses across Africa. The insights from this talk are drawn directly from the trenches of our recent architectural migration and production deployment. 4. Have you given this talk before? No, this is a premiere talk. The content is based on our very recent, cutting-edge migration to the latest KMP libraries (including Room 2.8.4 and Koin 4.x), making the information highly current and never presented before. 5. Keywords Kotlin Multiplatform (KMP), Compose Multiplatform, Koin, Room, Offline-first, Software Architecture, Migration, ERP, Startups"
+  },
+  {
+    "id": "d2-code-passed-right",
+    "title": "The Code Passed. Is It Right?",
+    "speaker": "Victor Turuthi",
+    "day": 2,
+    "startTime": "14:05",
+    "endTime": "15:00",
+    "room": "Visual Spaces",
+    "tags": [
+      "android",
+      "ai",
+      "testing",
+      "architecture"
+    ],
+    "abstract": "Stripe merges ~1,300 PRs a week with no human-written code. Spotify has merged 1,500+. The bottleneck isn’t writing code anymore. It’s trusting it. For Android, that matters even more: a bad change can stay on users’ devices until they update. In this talk, we’ll look at how to make a codebase cheap to trust, so review isn’t the only thing standing between a bad change and production. We’ll cover: 1. Gates — checks nobody can skip 2. Budgets — recomposition, APK size, and other hard limits 3. Boundaries — modules that enforce where code can go 4. Blessed paths — convention plugins that make the right thing the default The goal: make correctness a property of the system, not a job left to the reviewer."
+  },
+  {
+    "id": "d2-kotlin-multiplatform-learned-prototyping",
+    "title": "Kotlin Multiplatform: What I Learned Prototyping It So You Don't Have To",
+    "speaker": "Tanimowo Obaloluwa David",
+    "day": 2,
+    "startTime": "15:05",
+    "endTime": "16:05",
+    "room": "Auditorium",
+    "tags": [
+      "android",
+      "kotlin",
+      "kmp"
+    ],
+    "abstract": "Thinking about adopting Kotlin Multiplatform but not sure if it's ready for your team? In this lightning talk, I'll share what I found after prototyping KMP for sharing business logic across Android and iOS the setup experience, where it saved real time, and the friction points that caught me off guard (tooling, dependency support, and team workflow changes). You'll leave with a clear-eyed view of what KMP is good at today, what still needs workarounds, and a practical checklist for evaluating it on your own project."
+  },
+  {
+    "id": "d2-building-music-daw-android",
+    "title": "Building a Music DAW on Android: JNI, Real-Time Audio, and OpenGL Rendering",
+    "speaker": "Eden Gilbert, Okurut Joe",
+    "day": 2,
+    "startTime": "15:05",
+    "endTime": "16:05",
+    "room": "Visual Spaces",
+    "tags": [
+      "android",
+      "kotlin",
+      "architecture",
+      "audio",
+      "performance"
+    ],
+    "abstract": "Description: Caustic is a rack-mount synthesizer and music production studio running entirely on Android — with a native C/C++ audio engine, OpenGL ES 2.0 UI rendering, USB MIDI controller support, and dual audio backends for low-latency real-time processing. No cross-platform framework. No Unity. Just Kotlin, Java, and C talking directly to the Android hardware. In this talk, I'll walk through the architecture and engineering decisions behind building a full DAW as a single-Activity Android app: 1. JNI Architecture — Bridging Kotlin and Native C/C++ - Designing a clean JNI bridge (CausticNative.java — 30+ native methods) that separates the Kotlin lifecycle layer from the native audio engine - Loading libcaustic.so across 4 ABIs (arm64-v8a, armeabi-v7a, x86, x86_64) with a fallback extraction path for edge-case devices - Managing engine state (IDLE → RUNNING → PAUSED → ERROR) across the JNI boundary without leaking native resources 2. Real-Time Audio — OpenSL ES vs AudioTrack - Why OpenSL ES gives you 192-sample buffers and sub-5ms latency, while AudioTrack is the reliable Java fallback at configurable 64–4096 sample buffers - Running dual audio backends and switching at runtime based on device capability - Input audio from the microphone: mono/stereo detection, wait()/notifyAll() vs polling for the recording loop, and why the wrong choice kills battery life - Audio configuration: 44100 Hz, 16-bit PCM — and why you don't deviate from this on Android 3. OpenGL ES 2.0 UI — Everything is a Texture - The entire Caustic UI is rendered natively via GLSurfaceView + a custom CausticRenderer — the Java/Kotlin layer provides the surface and forwards input events, nothing more - Multi-touch dispatch: handling up to 10 simultaneous touch pointers and routing them to the native renderer - Mouse wheel, key events, and hardware keyboard support for tablet/desktop use cases - Lifecycle-aware GL surface management: pause, resume, and context loss recovery 4. USB MIDI — Hardware Controller Support - Scanning for USB MIDI devices via the Android USB Host API - Detecting standard USB Audio Class MIDI interfaces vs vendor-specific protocols (Roland, Yamaha) - Permission handling, attach/detach broadcast receivers, and bulk USB transfers for input/output threads - Why polling-based USB scanning (USBConnectionScanner at 1000ms intervals) was replaced with event-driven detection 5. Android Lifecycle at Scale - Single-Activity architecture managing: native engine lifecycle, GL surface, audio threads, MIDI devices, file intents, permissions, wake locks, and immersive mode - Quick-save/quick-load on onPause/onResume — because losing a user's music project is unacceptable - File intent handling for .caustic project files and .causticpack content packs via FileProvider - Licensing: device fingerprinting (CRC32 of UUID), companion app unlock (caustickey), and in-app purchase integration Key Takeaways: 1. How to design a JNI bridge that keeps Kotlin clean and native code isolated 2. Real-time audio on Android: OpenSL ES, AudioTrack, buffer management, and latency trade-offs 3. OpenGL ES 2.0 as a UI engine — when it makes sense and how to handle input routing 4. USB MIDI device discovery and the difference between standard and vendor-specific protocols 5. Managing complex Android lifecycle with native threads, GL surfaces, and hardware peripherals This talk is for Android developers who want to understand how to build apps that push Android's native capabilities — audio, graphics, USB, and JNI — beyond the typical UI framework approach."
+  },
+  {
+    "id": "d2-finding-perfect-ai-coding",
+    "title": "Finding Your Perfect AI Coding Partner",
+    "speaker": "Preethi Srinivas",
+    "day": 2,
+    "startTime": "16:05",
+    "endTime": "17:05",
+    "room": "Auditorium",
+    "tags": [
+      "android",
+      "ai"
+    ],
+    "abstract": "AI coding agents are no longer the future — they’re already in our daily workflows. But are we using them well? This hands-on, community-led workshop ditches the slides and puts YOU at the centre. Through a series of fast-paced, collaborative exercises, you’ll role-play both the human developer and the AI agent — simulating real Android development tasks, mapping out where things go right, and diagnosing where they fall apart. You’ll debate agent UI/UX, share the workarounds you actually use, and collectively build a toolkit of recovery moves for the most frustrating human-agent breakdowns. You’ll leave with a personalised Take-Home Card packed with one practical hack to steal and a conversation starter to bring back to your team. Whether you’re a seasoned Android engineer or just getting started with AI-assisted development — this session was built for you. What to expect: Role-play exercises simulating AI agent conversations Group triage of real-world pain points Dot voting on the pains that bite most Silent hack-writing and star voting on the best recovery moves A physical take-home card you keep"
+  }
+]
